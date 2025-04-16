@@ -1,5 +1,6 @@
 import ProjectCard from "./ProjectCard";
-const data = require("../../projectData.js");
+const data = require("../../public/projectData.js");
+import Image from "next/image";
 
 export default function Projects() {
   return (

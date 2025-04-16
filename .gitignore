@@ -2,9 +2,7 @@
 
 #folders
 /example
-
-#files
-projectData.js
+/Wips.js
 
 # dependencies
 /node_modules
