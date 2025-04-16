@@ -18,12 +18,3 @@ export default function ProjectCard({ project }) {
     </li>
   );
 }
-{
-  /* <h4>Project Title</h4>
-<Image src={file} alt="A thumbnail prepresenting a project" />
-<p>A little about the project</p>
-<div className="linksContainer">
-  <Link href="">Website</Link>
-  <Link href="">GitHub</Link>
-</div> */
-}
