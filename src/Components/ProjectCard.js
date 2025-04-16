@@ -1,6 +1,7 @@
 import Image from "next/image";
 import file from "../../public/file.svg";
 import Link from "next/link";
+import TechStackCard from "./TechStackCard";
 
 export default function ProjectCard({ project }) {
   return (
@@ -14,7 +15,11 @@ export default function ProjectCard({ project }) {
         <Link href={project.repoLinks.backend}>Backend Repo</Link>
       </div>
       <p>{project.projectDescription}</p>
-      <ul>Tech Card</ul>
+      <ul className="tech">
+        {project.tech.map((e, index) => {
+          return <TechStackCard key={index} tech={e} />;
+        })}
+      </ul>
     </li>
   );
 }
