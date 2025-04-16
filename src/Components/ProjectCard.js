@@ -15,6 +15,7 @@ export default function ProjectCard({ project }) {
         <Link href={project.repoLinks.backend}>Backend Repo</Link>
       </div>
       <p>{project.projectDescription}</p>
+      <h4>Tech stack</h4>
       <ul className="tech">
         {project.tech.map((e, index) => {
           return <TechStackCard key={index} tech={e} />;
