@@ -15,8 +15,6 @@ h1 {
 	text-align: center;
 	font-size: 3rem;
 	font-weight: bold;
-	
-
 }
 
 .Profile {
@@ -34,11 +32,12 @@ h3 {
 
 h2 {
 	text-align: center;
-
 	font-size: 2em;
+	padding-right: 1%;
 }
 
-.Profile > p {
+.Profile {
+	display: flex;
 	font-size: 1rem;
 }
 
@@ -100,3 +99,39 @@ h2 {
 	}
   }
   
+  
+.typeWriter {
+	overflow: hidden;
+	border-right: .15em solid rgba(179, 147, 211, 0.8); 
+	white-space: nowrap; 
+	margin: 0 auto; 
+	letter-spacing: .15em; 
+	animation: 
+	  typing 1.5s steps(20, end),
+	  blink-caret .75s step-end infinite;
+  }
+
+  @keyframes typing {
+	from { width: 0 }
+	to { width: 25%}
+  }
+
+  @keyframes blink-caret {
+	from, to { border-color: transparent }
+	50% { border-color: rgba(179, 147, 211, 0.8); }
+  }
+
+.blinkingText {
+	justify-self: flex-end;
+	text-align: center;
+	font-size: inherit;
+	animation: blink 1s infinite;
+}
+@keyframes blink {
+	from, to {color: transparent}
+	50%  {color: rgba(179, 147, 211, 0.8);}
+}
+
+/* .introduction {
+} 
+make each sentence its own p tag or its own span, line by line reveal the text as with the heading. Start it after the heading */
