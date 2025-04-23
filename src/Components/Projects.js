@@ -16,6 +16,22 @@ export default function Projects() {
             />
           );
         })}
+        <div className="currentProject">
+          <h4>Current Projects</h4>
+
+          <p>
+            I am working on a long-term project that will allow users to
+            catalogue their boardgame collections, store information on where
+            each game is kept, and suggest games for them to play based on the
+            user's desired criteria (number of players, genre of game, etc...).
+          </p>
+          <p>
+            Alongside the boardgame project I started in March, I am also
+            working on smaller projects to keep my coding skills sharp. I am
+            currently developing a website using Wix based on a 'clients'
+            request.
+          </p>
+        </div>
       </section>
     </article>
   );
