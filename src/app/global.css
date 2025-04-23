@@ -1,3 +1,37 @@
+:root {
+	--background: #ffffff;
+	--foreground: #171717
+  }
+  
+  @media (prefers-color-scheme: dark) {
+	:root {
+	  --background: #0a0a0a;
+	  --foreground: #ededed;
+	  
+	}
+	/* unvisited link */
+a:link {
+	color:rgba(179, 147, 211, 0.8);
+  }
+  
+  
+  /* mouse over link */
+  a:hover {
+	color: rgba(207, 115, 233, 0.8);
+  }
+  
+  a:visited {
+	color: #9498D1;
+  }
+  }
+
+  @media (prefers-color-scheme: dark) {
+	html {
+	  color-scheme: dark;
+	}
+  }
+  
+
 main {
 	min-height: 10vh;
 	min-width: fit-content;
@@ -5,7 +39,6 @@ main {
 	justify-content: center;
 	align-items: center;
 	padding: 2.5%;
-
 }
 
 h1, h2, h3 {
@@ -13,7 +46,7 @@ h1, h2, h3 {
 }
 h1 {
 	text-align: center;
-	font-size: 3rem;
+	font-size: 3.5rem;
 	font-weight: bold;
 }
 
@@ -48,6 +81,7 @@ h2 {
 	list-style: none;
 	gap: 10%;
 	max-width: 900px;
+	justify-content: center;
 }
 
 .ProjectsContainer > li {
@@ -58,11 +92,21 @@ h2 {
 	padding: 2%;
 	box-shadow: 5px 5px 10px rgba(179, 147, 211, 0.8);
 }
+.ProjectsContainer > .currentProject {
+	border: 3px solid #ededed;
+	border-radius: 25%;	
+	border-style: groove;
+	padding: 2%;
+	box-shadow: 5px 5px 10px rgba(179, 147, 211, 0.8);
+	margin-top: 5%;
+	max-width: 80%;
+}
 
 .ProjectsContainer > li > p {
 	text-align: start;
 	padding: 2.5%;
 }
+
 
 .projectLinks > a {
 	align-self: center;
@@ -81,25 +125,6 @@ h2 {
 .tech > li {
 	width: 33%;
 }
-:root {
-	--background: #ffffff;
-	--foreground: #171717
-  }
-  
-  @media (prefers-color-scheme: dark) {
-	:root {
-	  --background: #0a0a0a;
-	  --foreground: #ededed;
-	}
-  }
-
-  @media (prefers-color-scheme: dark) {
-	html {
-	  color-scheme: dark;
-	}
-  }
-  
-  
 .typeWriter {
 	overflow: hidden;
 	border-right: .15em solid rgba(179, 147, 211, 0.8); 
