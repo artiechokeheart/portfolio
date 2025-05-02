@@ -28,8 +28,7 @@ export default function Projects() {
           <p>
             Alongside the boardgame project I started in March, I am also
             working on smaller projects to keep my coding skills sharp. I am
-            currently developing a website using Wix based on a 'clients'
-            request.
+            currently developing a website using Wix and shadowing the Senior Developer at Digital Edge.
           </p>
         </div>
       </section>
