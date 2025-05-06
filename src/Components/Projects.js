@@ -28,6 +28,7 @@ export default function Projects() {
           <p>
             Alongside the boardgame project I started in March, I am also
             working on smaller projects to keep my coding skills sharp and interning at Digital Edge to get experience coding in a professional enviroment. 
+              <br />
             <a href="https://artemisswilkinson.wixstudio.com/360business">Click here to see my current WIP</a>
           </p>
         </div>
