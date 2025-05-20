@@ -35,7 +35,7 @@ export default function Projects() {
           My first Wix project was completed over the course of a few days in April as a technical test for Digital Edge. <br />
             <a href="https://artemisswilkinson.wixstudio.com/360business">Click here to see the MVP</a>
           </p>
-          <br>
+          <br></br>
           <p>
             I am working on a long-term project that will allow users to
             catalogue their boardgame collections, store information on where
