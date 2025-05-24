@@ -17,7 +17,7 @@ export default function Projects() {
           );
         })}
         <div className="currentProject">
-          <h4 {text-align: center;}>Current Projects</h4>
+          <h4>Current Projects</h4>
           <p> 
           I am now interning at <a href="https://www.wearedigitaledge.co.uk/">Digital Edge</a>, working on their internal projects.
           
